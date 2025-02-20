@@ -5,7 +5,17 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
-      h1 Titulo_de_primer_nivel
+      h1 Plan de capacitación
+
+    separador
+    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 3.1 Componentes de un plan de capacitación territorial
+    separador
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 3.2 Aliados de la capacitación en un territorio
+    separador
+    #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 3.3 Beneficios de un plan de capacitación territorial
 
 </template>
 
