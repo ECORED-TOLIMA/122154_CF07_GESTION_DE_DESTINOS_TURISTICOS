@@ -185,30 +185,57 @@
                 span a
               | ¿Cuál es su rol actual en el sector?
             .row.justify-content-center 
-              .col-lg-2.col-12
-                li.mb-0 Artesano.
-              .col-lg-3.col-12
-                li.mb-0 Guía turístico.
-              .col-lg-3.col-12
-                li.mb-0 Gestor cultural.
-              .col-lg-3.col-12
-                li.mb-0 Operador turístico.
-              .col-lg-1.col-12
-                li.mb-4 Otro.
+              .col-2
+                ul.lista-ul
+                  li 
+                    i.lista-ul__vineta
+                    p.mb-0 Artesano.
+              .col-3
+                ul.lista-ul
+                  li 
+                    i.lista-ul__vineta
+                    p.mb-0 Guía turístico.
+              .col-3
+                ul.lista-ul
+                  li 
+                    i.lista-ul__vineta
+                    p.mb-0 Gestor cultural.
+              .col-3
+                ul.lista-ul
+                  li 
+                    i.lista-ul__vineta
+                    p.mb-0 Operador turístico.
+              .col-1
+                ul.lista-ul
+                  li 
+                    i.lista-ul__vineta
+                    p.mb-0 Otro.
 
             li 
               .lista-ol--cuadro__vineta.v--green
                 span b
               | ¿Qué habilidades considera necesarias para mejorar su desempeño?
             .row.justify-content-center 
-              .col-lg-3.col-12
-                li.mb-0 Atención al cliente.
-              .col-lg-3.col-12
-                li.mb-0 Idiomas extranjeros.
-              .col-lg-3.col-12
-                li.mb-0 Gestión de eventos.
-              .col-lg-3.col-12
-                li.mb-4 Promoción digital.
+              .col-3
+                ul.lista-ul
+                  li 
+                    i.lista-ul__vineta
+                    p.mb-0 Atención al cliente.
+              .col-3
+                ul.lista-ul
+                  li 
+                    i.lista-ul__vineta
+                    p.mb-0 Idiomas extranjeros.
+              .col-3
+                ul.lista-ul
+                  li 
+                    i.lista-ul__vineta
+                    p.mb-0 Gestión de eventos.
+              .col-3
+                ul.lista-ul
+                  li 
+                    i.lista-ul__vineta
+                    p.mb-0 Promoción digital.
 
             li 
               .lista-ol--cuadro__vineta.v--green
@@ -376,15 +403,489 @@
     separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.3 Sondeo de interés
+
+    .row.justify-content-center.mb-5(data-aos="flip-up")
+      .col-lg-10.col-12.order-lg-2.order-2 
+        .cajon.c2.color-primario.p-4
+          p.mb-0  El sondeo de interés es una consulta directa con la población objetivo para identificar sus necesidades, preferencias y expectativas en relación con la capacitación cultural y turística. Su propósito es asegurar que las formaciones respondan a los intereses de la comunidad y contribuyan a su desarrollo. Este proceso se caracteriza por la participación activa de los interesados, quienes expresan qué temas consideran prioritarios.
+
+    p.mb-5(data-aos="fade-left") Para su aplicación, se emplean instrumentos como encuestas, entrevistas, formularios en línea o reuniones comunitarias. La información clave que se recolecta incluye los temas de interés, la disponibilidad horaria, el formato preferido (virtual o presencial) y las expectativas sobre la formación. A continuación, se presentan los pasos para su implementación:
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
+      .col-lg-10.col-12
+        .row.justify-content-center.align-items-center
+          .col-lg-8.col-12.mb-5.mb-md-0.order-lg-2.order-2.mb-lg-0
+            LineaTiempoD.color-acento-botones.especial
+              .row(numero="1" titulo="Diseño del instrumento de recolección de datos")
+                .col-12.mb-4.mb-md-0
+                  ul.lista-ul
+                    li.mb-0 
+                      i.lista-ul__vineta
+                      p.mb-0 Elaborar encuestas o talleres participativos.
+                    li.mb-0 
+                      i.lista-ul__vineta
+                      p.mb-0 Identificar los intereses en capacitación.
+                    li.mb-3 
+                      i.lista-ul__vineta
+                      p.mb-0 Conocer la disponibilidad horaria y el formato preferido.
+                    li.mb-0 
+                      i.lista-ul__vineta
+                      p.mb-0 Determinar necesidades de apoyo logístico.
+                    li.mb-3 
+                      i.lista-ul__vineta
+                      p.mb-0 Recoger expectativas sobre los resultados.
+
+              .row(numero="2" titulo="Segmentación de la población")
+                .col-12.mb-4.mb-md-0
+                  ul.lista-ul
+                    li.mb-0 
+                      i.lista-ul__vineta
+                      p.mb-0 Agrupar participantes por edad, ocupación o experiencia en turismo/cultura.
+                    li.mb-0 
+                      i.lista-ul__vineta
+                      p.mb-0 Garantizar la representación de diversos sectores (artesanías, gastronomía, danza y patrimonio).
+
+              .row(numero="3" titulo="Aplicación del sondeo")
+                .col-12.mb-4.mb-md-0
+                  ul.lista-ul
+                    li.mb-0 
+                      i.lista-ul__vineta
+                      p.mb-0 Implementar el sondeo de forma presencial (reuniones comunitarias) o digital (formularios en línea).
+                    li.mb-0 
+                      i.lista-ul__vineta
+                      p.mb-0 Contar con facilitadores locales para mejorar la comprensión cultural.
+
+              .row(numero="4" titulo="Análisis de resultados")
+                .col-12.mb-4.mb-md-0
+                  ul.lista-ul
+                    li.mb-0 
+                      i.lista-ul__vineta
+                      p.mb-0 Identificar patrones y tendencias en las respuestas.
+                    li.mb-0 
+                      i.lista-ul__vineta
+                      p.mb-0 Detectar intereses prioritarios y brechas en competencias.
+
+              .row(numero="5" titulo="Devolución de resultados")
+                .col-12.mb-4.mb-md-0
+                  ul.lista-ul
+                    li.mb-0 
+                      i.lista-ul__vineta
+                      p.mb-0 Compartir los hallazgos con la comunidad y actores clave.
+                    li.mb-0 
+                      i.lista-ul__vineta
+                      p.mb-0 Ajustar la oferta de capacitación según el interés expresado.
+          .col-lg-4.col-sm-4.col-5.order-lg-1.order-1.mb-lg-0.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema1/img23.png', alt='Imagen decorativa')
+
+    p.mb-5(data-aos="fade-left") Para garantizar que el sondeo de interés sea efectivo y responda a las necesidades reales de la comunidad, es fundamental tener en cuenta algunos aspectos clave. Estas consideraciones permiten adaptar la metodología a las particularidades del territorio, asegurar la participación de diversos grupos y evaluar el impacto de la capacitación en el desarrollo cultural y turístico. Es importante tener en cuenta las consideraciones adicionales:
+
+    .row.justify-content-center.ali.mb-4(data-aos="flip-up")
+      .tarjeta--container.row.mb-5
+        .col-xl.col-md-6.tarjeta.color-primario.p-5
+          .row.justify-content-center.mb-3
+            .col-lg-5.col-sm-4.col-6.col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema1/img24.svg', alt='Imagen decorativa')
+            
+          h4.text-center Enfoque participativo
+          p.text-center Involucrar a la comunidad para asegurar la pertinencia de las capacitaciones.
+
+        .col-xl.col-md-6.tarjeta.color-secundario.p-5
+          .row.justify-content-center.mb-3
+            .col-lg-5.col-sm-4.col-6.col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema1/img25.svg', alt='Imagen decorativa')
+            
+          h4.text-center Enfoque diferencial
+          p.text-center Adaptar los contenidos a las particularidades culturales y lingüísticas.
+
+        .col-xl.col-md-6.tarjeta.color-acento-contenido.p-5
+          .row.justify-content-center.mb-3
+            .col-lg-5.col-sm-4.col-6.col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema1/img26.svg', alt='Imagen decorativa')
+            
+          h4.text-center Seguimiento y evaluación
+          p.text-center Definir indicadores para medir el impacto del sondeo y ajustar futuras capacitaciones.
+
+    p.mb-5(data-aos="fade-left") A continuación, se presenta un ejemplo de ejercicio participativo diseñado para recopilar información directamente de la comunidad. Este método facilita la identificación de temas prioritarios de capacitación a través de la interacción y el consenso, asegurando que las formaciones respondan a las necesidades y expectativas locales.
+
+    .titulo.mb-5(data-aos="flip-up")
+      img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
+      h4.mb-0 Ejemplo de ejercicio participativo con la comunidad
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
+      .col-lg-4.col-8.col-md-6.mb-3.order-lg-2.order-2.mb-lg-0
+        figure
+          img(src='@/assets/curso/temas/tema1/img27.png', alt='Imagen decorativa')
+      .col-lg-8.col-12.order-lg-1.order-1.mb-lg-0.mb-4
+        .cajon.c1.p-4.mb-3
+          ol.lista-ol--cuadro
+            li 
+              .lista-ol--cuadro__vineta.v--green
+                span a
+              | <b>Reunión comunitaria</b>: convocar a actores locales en una sesión abierta.
+            li 
+              .lista-ol--cuadro__vineta.v--green
+                span b
+              | <b>Lluvia de ideas:</b>
+            ul.lista-ul
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Proporcionar tarjetas para que los asistentes escriban temas de capacitación prioritarios. 
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Clasificar respuestas en categorías (ejemplo: atención al cliente, promoción cultural, turismo sostenible, entre otros).
+
+            li 
+              .lista-ol--cuadro__vineta.v--green
+                span c
+              p.mb-0 <b>Priorización por votación</b>: los participantes asignan prioridad a cada tema identificado.
+
+            li 
+              .lista-ol--cuadro__vineta.v--green
+                span d
+              p.mb-0 <b>Resultados</b>: generar un <em>ranking</em> con los temas más relevantes.
+
+            p(data-aos="fade-left") <b>Herramienta digital sugerida:</b> <em>Mentimeter</em> para votación en tiempo real en sesiones virtuales.
     separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.4 Métodos de capacitación
+
+    p.mb-5(data-aos="fade-left") Los métodos de capacitación son estrategias y técnicas utilizadas para impartir conocimientos y desarrollar habilidades en los participantes. La selección del método adecuado depende del tema, los objetivos, el perfil de los participantes y los recursos disponibles. A continuación, se presentan los métodos más utilizados en los procesos de formación:
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
+      .col-12
+        .row.justify-content-center.align-items-center
+          .col-lg-9.col-12.mb-5.mb-md-0.order-lg-2.order-2.mb-lg-0
+            TabsA.color-acento-botones
+              .tarjeta.color5.p-4(titulo="Métodos teóricos")
+                p Enfocados en la transmisión de conocimientos mediante la exposición de información.
+                ul.lista-ul
+                  li.mb-0 
+                    i.lista-ul__vineta
+                    p.mb-0 Clases magistrales.
+                  li.mb-0 
+                    i.lista-ul__vineta
+                    p.mb-0 Conferencias o charlas.
+
+              .tarjeta.color5.p-4(titulo="Métodos prácticos")
+                p Orientados al aprendizaje experiencial y la aplicación de conocimientos.
+                ul.lista-ul
+                  li.mb-0 
+                    i.lista-ul__vineta
+                    p.mb-0 Talleres participativos.
+                  li.mb-0 
+                    i.lista-ul__vineta
+                    p.mb-0 Juegos de rol y simulaciones.
+
+              .tarjeta.color5.p-4(titulo="Métodos tecnológicos")
+                p Incorporan herramientas digitales para optimizar la enseñanza y facilitar el acceso a la información.
+                ul.lista-ul
+                  li.mb-0 
+                    i.lista-ul__vineta
+                    p.mb-0 Cursos en línea.
+                  li.mb-0 
+                    i.lista-ul__vineta
+                    p.mb-0 Uso de herramientas interactivas (videos, foros, plataformas LMS, entre otros).
+
+              .tarjeta.color5.p-4(titulo="Métodos colaborativos")
+                p Fomentan la construcción conjunta del conocimiento a través de la interacción entre los participantes.
+                ul.lista-ul
+                  li.mb-0 
+                    i.lista-ul__vineta
+                    p.mb-0 Trabajo en equipo y aprendizaje basado en proyectos.
+                  li.mb-0 
+                    i.lista-ul__vineta
+                    p.mb-0 Estudios de caso.
+            
+          .col-lg-3.col-sm-4.col-5.order-lg-1.order-1.mb-lg-0.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema1/img28.png', alt='Imagen decorativa')
+
+    p.mb-5(data-aos="fade-left") La combinación de diferentes métodos de capacitación permite adaptar el aprendizaje a las necesidades de los participantes y maximizar su efectividad. Al integrar enfoques teóricos, prácticos, tecnológicos y colaborativos, se logra una formación más dinámica y significativa. A continuación, se presenta un ejemplo de aplicación de un método práctico en un taller de interpretación del patrimonio.
+
+    .titulo.mb-5(data-aos="flip-up")
+      img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
+      h4.mb-0 Ejemplo sobre el “Método práctico – taller de interpretación del patrimonio”
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
+      .col-lg-4.col-8.col-md-6.mb-3.order-lg-1.order-1.mb-lg-0
+        figure
+          img(src='@/assets/curso/temas/tema1/img29.png', alt='Imagen decorativa')
+      .col-lg-8.col-12.order-lg-2.order-2.mb-lg-0.mb-4
+        .cajon.c1.p-4
+          p <b>Objetivo</b>: enseñar a los participantes a diseñar experiencias turísticas basadas en la historia y cultura local.
+          p <b>Estrategia</b>: mediante dinámicas interactivas, los asistentes analizan elementos del patrimonio y elaboran recorridos guiados que resalten su valor histórico y social.
+          p <b>Actividades</b>:
+          ol.lista-ol--cuadro
+            li 
+              .lista-ol--cuadro__vineta.v--green
+                span a
+              | Introducción teórica sobre interpretación del patrimonio.
+            li 
+              .lista-ol--cuadro__vineta.v--green
+                span b
+              | Trabajo en grupos con asignación de un sitio cultural.
+            li 
+              .lista-ol--cuadro__vineta.v--green
+                span c
+              | Creación de un guion interpretativo para una visita guiada.
+            li 
+              .lista-ol--cuadro__vineta.v--green
+                span d
+              | Simulación de recorridos con puesta en escena.
+            li 
+              .lista-ol--cuadro__vineta.v--green
+                span e
+              | Evaluación y retroalimentación grupal.
+    
+    p(data-aos="fade-left") Este enfoque permite adaptar la capacitación a distintos estilos de aprendizaje y garantizar una experiencia efectiva y enriquecedora.
+            
     separador
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.5 Procedimientos de capacitación
+    
+    p.mb-5(data-aos="fade-left") Los procedimientos de capacitación son el conjunto de pasos organizados que garantizan una planificación efectiva, una ejecución estructurada y una evaluación objetiva del proceso formativo. Siguiendo un enfoque sistemático, se asegura que la capacitación responda a las necesidades identificadas y genere un impacto significativo en los participantes. Las etapas principales del proceso de capacitación son:
+
+    TabsC.color-acento-botones.mb-5(data-aos="flip-up")
+      .py-3.py-md-4(titulo="Diagnóstico")
+        .row.justify-content-center.p-4
+          .col-lg-7.col-10.order-lg-1.order-1.mb-lg-0.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema1/img30.png', alt='Imagen decorativa')
+          .col-lg-5.order-lg-1.order-2
+            ul.lista-ul
+              li.mb-3 
+                i.lista-ul__vineta
+                p.mb-0 Identificar necesidades formativas a través de herramientas como encuestas, entrevistas o análisis de desempeño.
+              li.mb-3 
+                i.lista-ul__vineta
+                p.mb-0 Definir el perfil de los participantes y las brechas de conocimiento existentes.
+              li.mb-3 
+                i.lista-ul__vineta
+                p.mb-0 Priorizar los temas clave según la demanda y el contexto.
+      .py-3.py-md-4(titulo="Diseño del programa")
+        .row.justify-content-center.p-4
+          .col-lg-7.col-10.order-lg-1.order-1.mb-lg-0.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema1/img31.png', alt='Imagen decorativa')
+          .col-lg-5.order-lg-1.order-2
+            ul.lista-ul
+              li.mb-3 
+                i.lista-ul__vineta
+                p.mb-0 Establecer objetivos de aprendizaje claros y medibles.
+              li.mb-3 
+                i.lista-ul__vineta
+                p.mb-0 Elaborar un cronograma que contemple disponibilidad, duración y modalidad de la capacitación.
+              li.mb-3 
+                i.lista-ul__vineta
+                p.mb-0 Seleccionar métodos y recursos didácticos adecuados al público objetivo.
+              li.mb-3 
+                i.lista-ul__vineta
+                p.mb-0 Definir estrategias de seguimiento y acompañamiento.
+      .py-3.py-md-4(titulo="Ejecución")
+        .row.justify-content-center.p-4
+          .col-lg-7.col-10.order-lg-1.order-1.mb-lg-0.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema1/img32.png', alt='Imagen decorativa')
+          .col-lg-5.order-lg-1.order-2
+            ul.lista-ul
+              li.mb-3 
+                i.lista-ul__vineta
+                p.mb-0 Implementar las sesiones formativas según el método seleccionado (teórico, práctico, tecnológico o colaborativo).
+              li.mb-3 
+                i.lista-ul__vineta
+                p.mb-0 Fomentar la participación activa mediante dinámicas interactivas y actividades aplicadas.
+              li.mb-3 
+                i.lista-ul__vineta
+                p.mb-0 Adaptar la capacitación a las condiciones del entorno y la disponibilidad de los participantes.
+      .py-3.py-md-4(titulo="Evaluación")
+        .row.justify-content-center.p-4
+          .col-lg-7.col-10.order-lg-1.order-1.mb-lg-0.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema1/img33.png', alt='Imagen decorativa')
+          .col-lg-5.order-lg-1.order-2
+            ul.lista-ul
+              li.mb-3 
+                i.lista-ul__vineta
+                p.mb-0 Medir el impacto de la capacitación mediante pruebas de conocimientos, encuestas de satisfacción o indicadores de desempeño.
+              li.mb-3 
+                i.lista-ul__vineta
+                p.mb-0 Recoger retroalimentación para ajustar y mejorar futuras formaciones.
+              li.mb-3 
+                i.lista-ul__vineta
+                p.mb-0 Elaborar un informe de resultados con recomendaciones para optimizar el proceso.
+
+    p(data-aos="fade-left") Este enfoque estructurado permite garantizar la efectividad de la capacitación, asegurando que responda a las expectativas de los participantes y contribuya al desarrollo del sector cultural y turístico.
+
+    .titulo.mb-5(data-aos="flip-up")
+      img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
+      h4.mb-0 Ejemplo sobre procedimiento estructurado de capacitación
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
+      .col-lg-4.col-8.col-md-6.mb-3.order-lg-2.order-1.mb-lg-0
+        figure
+          img(src='@/assets/curso/temas/tema1/img34.svg', alt='Imagen decorativa')
+      .col-lg-8.col-12.order-lg-1.order-2.mb-lg-0.mb-4
+        .cajon.c1.p-4
+          ol.lista-ol--cuadro
+            li 
+              .lista-ol--cuadro__vineta.v--green
+                span a
+              p.mb-0 <b>Diagnóstico inicial</b>: aplicar encuestas y entrevistas con líderes comunitarios para identificar necesidades.
+            li 
+              .lista-ol--cuadro__vineta.v--green
+                span b
+              p.mb-0 <b>Diseño del programa</b>: crear módulos temáticos y un cronograma adaptado a las condiciones locales.
+            li 
+              .lista-ol--cuadro__vineta.v--green
+                span c
+              p.mb-0 <b>Ejecución</b>: implementar sesiones con métodos teóricos y prácticos, en formato presencial o virtual.
+            li 
+              .lista-ol--cuadro__vineta.v--green
+                span d
+              p.mb-0 <b>Evaluación final</b>: aplicar pruebas y encuestas para medir el aprendizaje y la calidad de la capacitación.
+
+    p(data-aos="fade-left") Esto mantiene el contenido esencial sin redundancias y con un estilo más ágil.
+
     separador
     #t_1_6.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.6 Estructuración de criterios de capacitación
+    
+    p.mb-5(data-aos="fade-left") La estructuración de criterios de capacitación consiste en la organización y priorización de los parámetros que orientarán la selección, diseño y ejecución de los programas formativos. Este proceso permite garantizar que las capacitaciones sean pertinentes, viables y alineadas con las necesidades del territorio. A continuación, se describen los pasos para estructurar criterios de capacitación:
+
+    .row.justify-content-center.mb-5(data-aos="flip-up")
+      .col-xxl-3.col-lg-4.col-sm-10.col-md-8.mb-xxl-0.mb-4(data-aos="fade-right")
+        .tarjetas-upper(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/temas/tema1/img35.svg' alt="Imagen decorativa")
+          .tarjetas-upper_card
+            .title.d-flex.align-items-center.justify-content-center.mb-4
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+                i.fas.fa-caret-down.fa-2x.me-3
+              h5.mb-0 Identificación de factores clave
+            p.text-center.mb-0.px-2 
+              ul.lista-ul
+                li.mb-3 
+                  i.lista-ul__vineta
+                  p.mb-0 Analizar las necesidades económicas, sociales y culturales del territorio.
+                li.mb-3 
+                  i.lista-ul__vineta
+                  p.mb-0 Evaluar los recursos disponibles (financieros, humanos y materiales).
+
+      .col-xxl-3.col-lg-4.col-sm-10.col-md-8.mb-xxl-0.mb-4(data-aos="fade-right")
+        .tarjetas-upper(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/temas/tema1/img36.svg' alt="Imagen decorativa")
+          .tarjetas-upper_card
+            .title.d-flex.align-items-center.justify-content-center.mb-4
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+                i.fas.fa-caret-down.fa-2x.me-3
+              h5.mb-0 Definición de prioridades
+            p.text-center.mb-0.px-2 
+              ul.lista-ul
+                li.mb-3 
+                  i.lista-ul__vineta
+                  p.mb-0 Determinar qué competencias son estratégicas o urgentes.
+                li.mb-3 
+                  i.lista-ul__vineta
+                  p.mb-0 Asegurar que la capacitación responda a objetivos de impacto y desarrollo.
+
+      .col-xxl-3.col-lg-4.col-sm-10.col-md-8.mb-xxl-0.mb-4(data-aos="fade-right")
+        .tarjetas-upper(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/temas/tema1/img37.svg' alt="Imagen decorativa")
+          .tarjetas-upper_card
+            .title.d-flex.align-items-center.justify-content-center.mb-4
+              span
+                i.fas.fa-caret-up.fa-2x.me-2
+                i.fas.fa-caret-down.fa-2x.me-2
+              h5.mb-0 Validación de los criterios
+            p.text-center.mb-0.px-2 
+              ul.lista-ul
+                li.mb-3 
+                  i.lista-ul__vineta
+                  p.mb-0 Consultar con actores locales y expertos del sector para verificar la pertinencia de los criterios.
+                li.mb-3 
+                  i.lista-ul__vineta
+                  p.mb-0 Ajustar los criterios con base en el contexto y las expectativas de la comunidad.
+
+      .col-xxl-3.col-lg-4.col-sm-10.col-md-8.mb-xxl-0.mb-4(data-aos="fade-right")
+        .tarjetas-upper(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/temas/tema1/img38.svg' alt="Imagen decorativa")
+          .tarjetas-upper_card
+            .title.d-flex.align-items-center.justify-content-center.mb-4
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+                i.fas.fa-caret-down.fa-2x.me-3
+              h5.mb-0 Documentación y aplicación
+            p.text-center.mb-0.px-2 
+              ul.lista-ul
+                li.mb-3 
+                  i.lista-ul__vineta
+                  p.mb-0 Diseñar una guía o formato estándar que permita aplicar los criterios de manera consistente.
+                li.mb-3 
+                  i.lista-ul__vineta
+                  p.mb-0 Implementar herramientas de seguimiento para evaluar su efectividad.
+
+    .titulo.mb-5(data-aos="flip-up")
+      img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
+      h4.mb-0 Ejemplo de criterios estructurados para la capacitación
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
+      .col-lg-4.col-8.col-md-6.mb-3.order-lg-1.order-2.mb-lg-0
+        figure
+          img(src='@/assets/curso/temas/tema1/img39.svg', alt='Imagen decorativa')
+      .col-lg-8.col-12.order-lg-2.order-1.mb-lg-0.mb-4
+        .cajon.c1.p-4
+          ul.lista-ul
+            li 
+              i.fas.fa-angle-right
+              p.mb-0 <b>Impacto social</b>: contribución al bienestar de la comunidad y generación de oportunidades.
+            li 
+              i.fas.fa-angle-right
+              p.mb-0 <b>Viabilidad</b>: factibilidad técnica, logística y presupuestaria del programa.
+            li 
+              i.fas.fa-angle-right
+              p.mb-0 <b>Sostenibilidad</b>: alineación con prácticas responsables en turismo y cultura.
+
+    .titulo.mb-5(data-aos="flip-up")
+      img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
+      h4.mb-0 Ejemplo de criterios estructurados para turismo sostenible
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
+      .col-lg-4.col-8.col-md-6.mb-3.order-lg-2.order-1.mb-lg-0
+        figure
+          img(src='@/assets/curso/temas/tema1/img40.svg', alt='Imagen decorativa')
+      .col-lg-8.col-12.order-lg-1.order-2.mb-lg-0.mb-4
+        .cajon.c1.p-4
+          ol.lista-ol--cuadro
+            li 
+              .lista-ol--cuadro__vineta.v--green
+                span a
+              p.mb-0 <b>Pertinencia cultural</b>: los contenidos deben estar alineados con la identidad del territorio (gastronomía local, leyendas, artesanías, etc.).
+            li 
+              .lista-ol--cuadro__vineta.v--green
+                span b
+              p.mb-0 <b>Impacto ambiental</b>: se deben priorizar capacitaciones que incluyan prácticas sostenibles (manejo de residuos y energías limpias en el turismo).
+            li 
+              .lista-ol--cuadro__vineta.v--green
+                span c
+              p.mb-0 <b>Inclusión comunitaria</b>: es fundamental asegurar la participación de mujeres, jóvenes y comunidades étnicas.
+            li 
+              .lista-ol--cuadro__vineta.v--green
+                span d
+              p.mb-0 <b>Viabilidad económica</b>: evaluar el costo-beneficio de la capacitación en relación con el presupuesto disponible.
+
+    p(data-aos="fade-left") Se sugiere el uso de una matriz de validación en Excel con columnas para cada criterio y filas para evaluar las propuestas de capacitación.
+    p(data-aos="fade-left") Estos criterios permiten estructurar programas de formación efectivos, asegurando que sean pertinentes, viables y alineados con el desarrollo sostenible de los sectores cultural y turístico.
+    
+    
       
 </template>
 
