@@ -525,7 +525,7 @@
             li 
               .lista-ol--cuadro__vineta.v--green
                 span a
-              | <b>Reunión comunitaria</b>: convocar a actores locales en una sesión abierta.
+              p.mb-0 <b>Reunión comunitaria</b>: convocar a actores locales en una sesión abierta.
             li 
               .lista-ol--cuadro__vineta.v--green
                 span b
@@ -537,12 +537,10 @@
               li 
                 i.lista-ul__vineta
                 p.mb-0 Clasificar respuestas en categorías (ejemplo: atención al cliente, promoción cultural, turismo sostenible, entre otros).
-
             li 
               .lista-ol--cuadro__vineta.v--green
                 span c
               p.mb-0 <b>Priorización por votación</b>: los participantes asignan prioridad a cada tema identificado.
-
             li 
               .lista-ol--cuadro__vineta.v--green
                 span d
