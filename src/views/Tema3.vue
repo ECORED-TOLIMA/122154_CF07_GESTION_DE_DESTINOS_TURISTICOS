@@ -21,6 +21,8 @@
     separador
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.1 Componentes de un plan de capacitación territorial
+    
+    p.mb-5(data-aos="fade-left") Para que un plan de capacitación sea efectivo, debe contar con una estructura clara que garantice su éxito en la implementación. A continuación, se presentan sus principales componentes:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
       .col-lg-10.col-12

@@ -291,6 +291,11 @@ export default {
   referencias: [
     {
       referencia:
+        'Abascal Rojas, F. (2004). Cómo se hace un plan estratégico. ESIC Editorial.',
+      link: '',
+    },
+    {
+      referencia:
         'Touristology. (2016). Plan estratégico y de negocios del turismo cultural de Colombia. Ministerio de Comercio, Industria y Turismo.',
       link:
         'https://www.mincit.gov.co/CMSPages/GetFile.aspx?guid=87ecec49-94d1-4d58-a8f2-98a2731d03ff',

@@ -195,18 +195,17 @@
     
     p.mb-5(data-aos="fade-left") El plan de mejora responde a las debilidades identificadas durante el seguimiento y propone soluciones estratégicas. Su desarrollo sigue estos pasos:
 
+
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
-      .col-12
+      .col-lg-10.col-12
         .row.justify-content-center.align-items-center
-          .col-lg-9.col-12.mb-5.mb-md-0.order-lg-2.order-2.mb-lg-0
-            TabsA.color-acento-botones
-              .tarjeta.color5.p-4(titulo="Identificación de problemas")
-                p Análisis de informes para detectar brechas en competencias o fallos en la ejecución de la capacitación.
+          .col-lg-8.col-12.mb-md-0.order-lg-2.order-2
+            LineaTiempoD.color-acento-botones.especial
+              p(numero="1" titulo="Identificación de problemas") Análisis de informes para detectar brechas en competencias o fallos en la ejecución de la capacitación.
 
-              .tarjeta.color5.p-4(titulo="Definición de objetivos")
-                p Por ejemplo: “mejorar la formación de guías turísticos en historia local o fortalecer la atención al cliente en el sector hotelero”.
+              p(numero="2" titulo="Definición de objetivos") Por ejemplo: “mejorar la formación de guías turísticos en historia local o fortalecer la atención al cliente en el sector hotelero”.
 
-              .tarjeta.color5.p-4(titulo="Propuestas de acciones")
+              p(numero="3" titulo="Propuestas de acciones") 
                 ul.lista-ul
                   li.mb-0 
                     i.lista-ul__vineta
@@ -218,7 +217,7 @@
                     i.lista-ul__vineta
                     p.mb-0 Involucrar expertos reconocidos para mejorar la calidad de las sesiones.
 
-              .tarjeta.color5.p-4(titulo="Asignación de recursos y responsables")
+              p(numero="4" titulo="Asignación de recursos y responsables") 
                 ul.lista-ul
                   li.mb-0 
                     i.lista-ul__vineta
@@ -227,7 +226,44 @@
                     i.lista-ul__vineta
                     p.mb-0 Establecer alianzas con el SENA, universidades o entidades culturales.
 
-              .tarjeta.color5.p-4(titulo="Cronograma y seguimiento")
+              p(numero="5" titulo="Cronograma y seguimiento") Establecer fechas específicas para implementar mejoras y realizar nuevas evaluaciones.
+          .col-lg-4.col-sm-4.col-5.order-lg-1.order-1.mb-lg-0.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema6/img09.png', alt='Imagen decorativa')
+
+    //.row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
+      .col-12
+        .row.justify-content-center.align-items-center
+          .col-lg-9.col-12.mb-5.mb-md-0.order-lg-2.order-2.mb-lg-0
+            TabsA.color-acento-botones
+              //.tarjeta.color5.p-4(titulo="Identificación de problemas")
+                p Análisis de informes para detectar brechas en competencias o fallos en la ejecución de la capacitación.
+
+              //.tarjeta.color5.p-4(titulo="Definición de objetivos")
+                p Por ejemplo: “mejorar la formación de guías turísticos en historia local o fortalecer la atención al cliente en el sector hotelero”.
+
+              //.tarjeta.color5.p-4(titulo="Propuestas de acciones")
+                ul.lista-ul
+                  li.mb-0 
+                    i.lista-ul__vineta
+                    p.mb-0 Reprogramar capacitaciones en temas poco dominados.
+                  li.mb-0 
+                    i.lista-ul__vineta
+                    p.mb-0 Implementar actividades prácticas en escenarios reales.
+                  li.mb-0 
+                    i.lista-ul__vineta
+                    p.mb-0 Involucrar expertos reconocidos para mejorar la calidad de las sesiones.
+
+              //.tarjeta.color5.p-4(titulo="Asignación de recursos y responsables")
+                ul.lista-ul
+                  li.mb-0 
+                    i.lista-ul__vineta
+                    p.mb-0 Designar personal y aliados estratégicos para la ejecución.
+                  li.mb-0 
+                    i.lista-ul__vineta
+                    p.mb-0 Establecer alianzas con el SENA, universidades o entidades culturales.
+
+              //.tarjeta.color5.p-4(titulo="Cronograma y seguimiento")
                 ul.lista-ul
                   li.mb-0 
                     i.lista-ul__vineta

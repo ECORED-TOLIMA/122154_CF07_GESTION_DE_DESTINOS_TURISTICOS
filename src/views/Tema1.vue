@@ -165,6 +165,41 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img15.png', alt='Imagen decorativa')
 
+          .row.justify-content-center.p-4(titulo=" ")
+            .col-lg-7.order-lg-1.order-2
+              h4 Análisis de fortalezas, oportunidades, debilidades y amenazas (FODA) cultural
+              p El análisis FODA cultural permite hacer un diagnóstico estratégico de los elementos culturales de la región, evaluando las fortalezas y oportunidades en términos de atractivo turístico, así como las debilidades y amenazas que podrían afectar la preservación de la cultura en el contexto turístico.ismo.
+            .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img(src='@/assets/curso/temas/tema1/img41.png', alt='Imagen decorativa')
+
+          .row.justify-content-center.p-4(titulo=" ")
+            .col-lg-7.order-lg-1.order-2
+              h4 Matrices de evaluación de competencias culturales
+              p Permiten medir y comparar el nivel de competencias de los actores locales en áreas específicas relacionadas con la cultura y el turismo. Este diagnóstico es útil para:
+              li.mb-4 Determinar las brechas de habilidades en la comunidad.
+              li.mb-4 Identificar competencias en las que los actores ya son fuertes y pueden compartir conocimientos.
+              li.mb- Facilitar la creación de programas de capacitación personalizados.
+            .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img(src='@/assets/curso/temas/tema1/img42.png', alt='Imagen decorativa')
+
+          .row.justify-content-center.p-4(titulo=" ")
+            .col-lg-7.order-lg-1.order-2
+              h4 Análisis documental y revisión de antecedentes culturales
+              p la revisión de documentos históricos, estudios antropológicos y antecedentes culturales del territorio permite comprender mejor la evolución y particularidades de la cultura local.
+            .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img(src='@/assets/curso/temas/tema1/img43.png', alt='Imagen decorativa')
+
+          .row.justify-content-center.p-4(titulo=" ")
+            .col-lg-7.order-lg-1.order-2
+              h4 <em>Benchmarking</em> cultural con otros territorios similares
+              p Permite comparar la situación cultural y las prácticas de capacitación con otros territorios que posean características culturales similares o que enfrenten retos comunes.
+            .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img(src='@/assets/curso/temas/tema1/img44.png', alt='Imagen decorativa')
+
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10.col-12
         p Estas herramientas diagnósticas brindan una visión profunda y estructurada de las necesidades culturales del territorio, permitiendo diseñar programas de capacitación específicos que promuevan la preservación y valorización del patrimonio cultural, fortaleciendo la identidad y el sentido de pertenencia de la comunidad.
@@ -546,7 +581,7 @@
                 span d
               p.mb-0 <b>Resultados</b>: generar un <em>ranking</em> con los temas más relevantes.
 
-            p(data-aos="fade-left") <b>Herramienta digital sugerida:</b> <em>Mentimeter</em> para votación en tiempo real en sesiones virtuales.
+            p(data-aos="fade-left") <b>Herramienta digital sugerida:</b> Mentimeter para votación en tiempo real en sesiones virtuales.
     separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.4 Métodos de capacitación
@@ -554,6 +589,50 @@
     p.mb-5(data-aos="fade-left") Los métodos de capacitación son estrategias y técnicas utilizadas para impartir conocimientos y desarrollar habilidades en los participantes. La selección del método adecuado depende del tema, los objetivos, el perfil de los participantes y los recursos disponibles. A continuación, se presentan los métodos más utilizados en los procesos de formación:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
+      .col-lg-10.col-12
+        .row.justify-content-center.align-items-center
+          .col-lg-8.col-12.mb-md-0.order-lg-2.order-2
+            LineaTiempoD.color-acento-botones.especial
+              p(numero="1" titulo="Métodos teóricos") Enfocados en la transmisión de conocimientos mediante la exposición de información.
+                ul.lista-ul.mt-2
+                  li.mb-0 
+                    i.lista-ul__vineta
+                    p.mb-0 Clases magistrales.
+                  li.mb-0 
+                    i.lista-ul__vineta
+                    p.mb-0 Conferencias o charlas.
+
+              p(numero="2" titulo="Métodos prácticos") Orientados al aprendizaje experiencial y la aplicación de conocimientos.
+                ul.lista-ul.mt-2
+                  li.mb-0 
+                    i.lista-ul__vineta
+                    p.mb-0 Talleres participativos.
+                  li.mb-0 
+                    i.lista-ul__vineta
+                    p.mb-0 Juegos de rol y simulaciones.
+
+              p(numero="3" titulo="Métodos tecnológicos") Incorporan herramientas digitales para optimizar la enseñanza y facilitar el acceso a la información.
+                ul.lista-ul.mt-2
+                  li.mb-0 
+                    i.lista-ul__vineta
+                    p.mb-0 Cursos en línea.
+                  li.mb-0 
+                    i.lista-ul__vineta
+                    p.mb-0 Uso de herramientas interactivas (videos, foros, plataformas LMS, entre otros).
+
+              p(numero="4" titulo="Métodos colaborativos") Fomentan la construcción conjunta del conocimiento a través de la interacción entre los participantes.
+                ul.lista-ul.mt-2
+                  li.mb-0 
+                    i.lista-ul__vineta
+                    p.mb-0 Trabajo en equipo y aprendizaje basado en proyectos.
+                  li.mb-0 
+                    i.lista-ul__vineta
+                    p.mb-0 Estudios de caso.
+          .col-lg-4.col-sm-4.col-5.order-lg-1.order-1.mb-lg-0.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema1/img28.png', alt='Imagen decorativa')
+    
+    //.row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
       .col-12
         .row.justify-content-center.align-items-center
           .col-lg-9.col-12.mb-5.mb-md-0.order-lg-2.order-2.mb-lg-0
