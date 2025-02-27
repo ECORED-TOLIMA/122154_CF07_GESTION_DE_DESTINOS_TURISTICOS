@@ -168,7 +168,7 @@
           .row.justify-content-center.p-4(titulo=" ")
             .col-lg-7.order-lg-1.order-2
               h4 Análisis de fortalezas, oportunidades, debilidades y amenazas (FODA) cultural
-              p El análisis FODA cultural permite hacer un diagnóstico estratégico de los elementos culturales de la región, evaluando las fortalezas y oportunidades en términos de atractivo turístico, así como las debilidades y amenazas que podrían afectar la preservación de la cultura en el contexto turístico.ismo.
+              p El análisis FODA cultural permite hacer un diagnóstico estratégico de los elementos culturales de la región, evaluando las fortalezas y oportunidades en términos de atractivo turístico, así como las debilidades y amenazas que podrían afectar la preservación de la cultura en el contexto turístico.
             .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/img41.png', alt='Imagen decorativa')
@@ -187,7 +187,7 @@
           .row.justify-content-center.p-4(titulo=" ")
             .col-lg-7.order-lg-1.order-2
               h4 Análisis documental y revisión de antecedentes culturales
-              p la revisión de documentos históricos, estudios antropológicos y antecedentes culturales del territorio permite comprender mejor la evolución y particularidades de la cultura local.
+              p La revisión de documentos históricos, estudios antropológicos y antecedentes culturales del territorio permite comprender mejor la evolución y particularidades de la cultura local.
             .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/img43.png', alt='Imagen decorativa')
@@ -220,27 +220,27 @@
                 span a
               | ¿Cuál es su rol actual en el sector?
             .row.justify-content-center 
-              .col-2
+              .col-xxl-2.col-12
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
                     p.mb-0 Artesano.
-              .col-3
+              .col-xxl-3.col-12
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
                     p.mb-0 Guía turístico.
-              .col-3
+              .col-xxl-3.col-12
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
                     p.mb-0 Gestor cultural.
-              .col-3
+              .col-xxl-3.col-12
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
                     p.mb-0 Operador turístico.
-              .col-1
+              .col-xxl-1.col-12
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
@@ -251,22 +251,22 @@
                 span b
               | ¿Qué habilidades considera necesarias para mejorar su desempeño?
             .row.justify-content-center 
-              .col-3
+              .col-xxl-3.col-12
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
                     p.mb-0 Atención al cliente.
-              .col-3
+              .col-xxl-3.col-12
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
                     p.mb-0 Idiomas extranjeros.
-              .col-3
+              .col-xxl-3.col-12
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
                     p.mb-0 Gestión de eventos.
-              .col-3
+              .col-xxl-3.col-12
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
@@ -404,7 +404,7 @@
           tbody
             tr(style="background-color: #F6F6F6")
               td Relevancia temática
-              td Relación del tema con las necesidades identificadas en el diagnóstico
+              td Relación del tema con las necesidades identificadas en el diagnóstico.
               td.text-center 30 %
               td 
               td 
@@ -460,7 +460,7 @@
                     li.mb-0 
                       i.lista-ul__vineta
                       p.mb-0 Identificar los intereses en capacitación.
-                    li.mb-3 
+                    li.mb-0 
                       i.lista-ul__vineta
                       p.mb-0 Conocer la disponibilidad horaria y el formato preferido.
                     li.mb-0 
@@ -609,7 +609,7 @@
                     p.mb-0 Talleres participativos.
                   li.mb-0 
                     i.lista-ul__vineta
-                    p.mb-0 Juegos de rol y simulaciones.
+                    p.mb-0 Juegos de roles y simulaciones.
 
               p(numero="3" titulo="Métodos tecnológicos") Incorporan herramientas digitales para optimizar la enseñanza y facilitar el acceso a la información.
                 ul.lista-ul.mt-2
@@ -708,7 +708,7 @@
             li 
               .lista-ol--cuadro__vineta.v--green
                 span c
-              | Creación de un guion interpretativo para una visita guiada.
+              | Creación de un guión interpretativo para una visita guiada.
             li 
               .lista-ol--cuadro__vineta.v--green
                 span d

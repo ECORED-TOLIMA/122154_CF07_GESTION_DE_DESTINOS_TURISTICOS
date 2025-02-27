@@ -53,7 +53,7 @@
                 .col-12.mb-4.mb-md-0
                   p.mb-0 La participación de entidades gubernamentales, empresas, ONG, instituciones educativas y organizaciones comunitarias es fundamental para el éxito del plan.
 
-              .row(numero="5" titulo="Seguimiento y evaluación")
+              .row(numero="7" titulo="Seguimiento y evaluación")
                 .col-12.mb-4.mb-md-0
                   p.mb-0 Se deben establecer indicadores de impacto, aplicar encuestas y evaluar el aprendizaje adquirido para mejorar continuamente la oferta de capacitación.
           .col-lg-4.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4

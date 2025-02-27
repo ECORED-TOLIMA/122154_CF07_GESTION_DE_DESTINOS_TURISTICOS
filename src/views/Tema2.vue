@@ -196,7 +196,7 @@
         .row.justify-content-center.p-4
           .col-lg-5.order-lg-1.order-2
             h4 Plataformas digitales y medios de difusión
-            p creación de sitios web, aplicaciones móviles y documentales que permitan la divulgación de los saberes culturales y artísticos del municipio a nivel local, nacional e internacional, facilitando el acceso a información y promoviendo la participación comunitaria.
+            p Creación de sitios web, aplicaciones móviles y documentales que permitan la divulgación de los saberes culturales y artísticos del municipio a nivel local, nacional e internacional, facilitando el acceso a información y promoviendo la participación comunitaria.
           
           .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
