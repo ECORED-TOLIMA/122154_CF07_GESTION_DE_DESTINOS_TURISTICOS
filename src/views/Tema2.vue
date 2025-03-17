@@ -53,7 +53,7 @@
             tr
               td Arte escénico
               td Expresiones corporales y teatrales.
-              td Teatro, danza, títeres y <i>performance</i>.
+              td Teatro, danza, títeres y <em>performance</em>.
             tr
               td(style="background-color: #F6F6F6") Arte musical
               td(style="background-color: #F6F6F6") Producción sonora tradicional y moderna.

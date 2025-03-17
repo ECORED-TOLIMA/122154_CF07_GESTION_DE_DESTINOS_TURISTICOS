@@ -173,7 +173,7 @@
           .col-lg-5.col-sm-4.col-6
             img(src='@/assets/curso/temas/tema4/img17.svg' alt='AvatarTop')
         h4.text-center Material audiovisual
-        p.text-center Videos educativos, infografías, presentaciones interactivas y podcasts.
+        p.text-center Videos educativos, infografías, presentaciones interactivas y <em>podcasts</em>.
 
       .tarjeta.tarjeta--BG07.p-4
         .row.justify-content-center.mb-3
@@ -253,14 +253,14 @@
                   img.img200(src='@/assets/curso/temas/tema4/img32.svg', alt='Imagen decorativa')
               .col-lg-10.mb-4.mb-lg-0
                 h4 Alianzas con el sector privado
-                  p.mb-0 Empresas que financian programas de capacitación como parte de su responsabilidad social empresarial (RSE).
+                  p.mb-0 Empresas que financian programas de capacitación como parte de su Responsabilidad Social Empresarial (RSE).
 
             .row(titulo="04")
               .col-lg-2.mb-3.mb-lg-0.col-6
                 figure
                   img.img200(src='@/assets/curso/temas/tema4/img33.svg', alt='Imagen decorativa')
               .col-lg-10.mb-4.mb-lg-0
-                h4 Organizaciones no gubernamentales (ONGs)
+                h4 Organizaciones No Gubernamentales (ONGs)
                   p.mb-0 Entidades que brindan apoyo técnico y económico para proyectos de formación.
 
             .row(titulo="05")

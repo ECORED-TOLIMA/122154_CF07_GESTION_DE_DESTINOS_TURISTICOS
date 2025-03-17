@@ -126,7 +126,7 @@
           .row(titulo="01")
             .col-lg-2.mb-3.mb-lg-0.col-6
               figure
-                img.img200(src='@/assets/curso/temas/tema3/img10.png', alt='Imagen decorativa')
+                img.img200(src='@/assets/curso/temas/tema3/img10.svg', alt='Imagen decorativa')
             .col-lg-10.mb-4.mb-lg-0
               h3 Fortalecimiento de la identidad cultural
                 p.mb-0 Se protege y promueve el conocimiento de saberes tradicionales y contemporáneos.

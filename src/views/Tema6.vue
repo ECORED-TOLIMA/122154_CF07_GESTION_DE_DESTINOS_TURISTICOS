@@ -128,7 +128,7 @@
     
     separador
     #t_6_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 6.3 Informes de Seguimiento
+      h2 6.3 Informes de seguimiento
 
     p.mb-5(data-aos="fade-left") Los informes consolidan la información recopilada y permiten la toma de decisiones basadas en datos. Una estructura recomendada incluye:
 
@@ -191,7 +191,7 @@
 
     separador
     #t_6_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 6.4 Planes de Mejora
+      h2 6.4 Planes de mejora
     
     p.mb-5(data-aos="fade-left") El plan de mejora responde a las debilidades identificadas durante el seguimiento y propone soluciones estratégicas. Su desarrollo sigue estos pasos:
 

@@ -8,7 +8,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5(data-aos="fade-right")
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="Imagen decorativa")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="El componente formativo Capacitación cultural y turística, ofrece herramientas para diseñar y gestionar procesos de formación en el ámbito cultural y turístico. Incluye métodos de diagnóstico, planificación y ejecución de la capacitación, destacando la importancia de los saberes culturales y su aplicación en los territorios. También abarca la organización de muestras culturales y el uso de recursos clave, como normativa, infraestructura y financiamiento.")
       .col-auto(data-aos="fade-left")
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

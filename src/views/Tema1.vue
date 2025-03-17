@@ -363,7 +363,7 @@
               ul.lista-ul
                 li.mb-3 
                   i.lista-ul__vineta
-                  p.mb-0 Definir requisitos específicos para participar, tales como: experiencia previa en el sector, residencia en el territorio y vinculación con actividades culturales y turísticas
+                  p.mb-0 Definir requisitos específicos para participar, tales como: experiencia previa en el sector, residencia en el territorio y vinculación con actividades culturales y turísticas.
                 li.mb-3 
                   i.lista-ul__vineta
                   p.mb-0 Asegurar la inclusión de poblaciones diversas (jóvenes, mujeres, comunidades indígenas, entre otros).
@@ -564,7 +564,7 @@
             li 
               .lista-ol--cuadro__vineta.v--green
                 span b
-              | <b>Lluvia de ideas:</b>
+              | <b>Lluvia de ideas</b>:
             ul.lista-ul
               li 
                 i.lista-ul__vineta
@@ -581,7 +581,7 @@
                 span d
               p.mb-0 <b>Resultados</b>: generar un <em>ranking</em> con los temas más relevantes.
 
-            p(data-aos="fade-left") <b>Herramienta digital sugerida:</b> Mentimeter para votación en tiempo real en sesiones virtuales.
+            p(data-aos="fade-left") <b>Herramienta digital sugerida</b>: mentimeter para votación en tiempo real en sesiones virtuales.
     separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.4 Métodos de capacitación
@@ -848,10 +848,10 @@
               ul.lista-ul
                 li.mb-3 
                   i.lista-ul__vineta
-                  p.mb-0 Analizar las necesidades económicas, sociales y culturales del territorio.
+                  p.mb-0 • Analizar las necesidades económicas, sociales y culturales del territorio.
                 li.mb-3 
                   i.lista-ul__vineta
-                  p.mb-0 Evaluar los recursos disponibles (financieros, humanos y materiales).
+                  p.mb-0 • Evaluar los recursos disponibles (financieros, humanos y materiales).
 
       .col-xxl-3.col-lg-4.col-sm-10.col-md-8.mb-xxl-0.mb-4(data-aos="fade-right")
         .tarjetas-upper(@mouseover="mostrarIndicador = false")
@@ -867,10 +867,10 @@
               ul.lista-ul
                 li.mb-3 
                   i.lista-ul__vineta
-                  p.mb-0 Determinar qué competencias son estratégicas o urgentes.
+                  p.mb-0 • Determinar qué competencias son estratégicas o urgentes.
                 li.mb-3 
                   i.lista-ul__vineta
-                  p.mb-0 Asegurar que la capacitación responda a objetivos de impacto y desarrollo.
+                  p.mb-0 • Asegurar que la capacitación responda a objetivos de impacto y desarrollo.
 
       .col-xxl-3.col-lg-4.col-sm-10.col-md-8.mb-xxl-0.mb-4(data-aos="fade-right")
         .tarjetas-upper(@mouseover="mostrarIndicador = false")
@@ -886,10 +886,10 @@
               ul.lista-ul
                 li.mb-3 
                   i.lista-ul__vineta
-                  p.mb-0 Consultar con actores locales y expertos del sector para verificar la pertinencia de los criterios.
+                  p.mb-0 • Consultar con actores locales y expertos del sector para verificar la pertinencia de los criterios.
                 li.mb-3 
                   i.lista-ul__vineta
-                  p.mb-0 Ajustar los criterios con base en el contexto y las expectativas de la comunidad.
+                  p.mb-0 • Ajustar los criterios con base en el contexto y las expectativas de la comunidad.
 
       .col-xxl-3.col-lg-4.col-sm-10.col-md-8.mb-xxl-0.mb-4(data-aos="fade-right")
         .tarjetas-upper(@mouseover="mostrarIndicador = false")
@@ -905,10 +905,10 @@
               ul.lista-ul
                 li.mb-3 
                   i.lista-ul__vineta
-                  p.mb-0 Diseñar una guía o formato estándar que permita aplicar los criterios de manera consistente.
+                  p.mb-0 • Diseñar una guía o formato estándar que permita aplicar los criterios de manera consistente.
                 li.mb-3 
                   i.lista-ul__vineta
-                  p.mb-0 Implementar herramientas de seguimiento para evaluar su efectividad.
+                  p.mb-0 • Implementar herramientas de seguimiento para evaluar su efectividad.
 
     .titulo.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
@@ -962,7 +962,6 @@
     p(data-aos="fade-left") Se sugiere el uso de una matriz de validación en Excel con columnas para cada criterio y filas para evaluar las propuestas de capacitación.
     p(data-aos="fade-left") Estos criterios permiten estructurar programas de formación efectivos, asegurando que sean pertinentes, viables y alineados con el desarrollo sostenible de los sectores cultural y turístico.
     
-    
       
 </template>
 
@@ -970,9 +969,7 @@
 export default {
   name: 'Tema1',
   components: {},
-  data: () => ({
-    // variables de vue
-  }),
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
