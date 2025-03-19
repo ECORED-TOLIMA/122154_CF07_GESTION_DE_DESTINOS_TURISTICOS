@@ -391,7 +391,7 @@
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .titulo-sexto.color-acento-contenido
         h5 Tabla 1.
-        span <i>Métodos más utilizados en diagnósticos territoriales.</i>
+        span <i>Ejemplo de plantilla para evaluar criterios de capacitación.</i>
       .tabla-a.clstabla.color-acento-contenido
         table
           thead
@@ -560,11 +560,11 @@
             li 
               .lista-ol--cuadro__vineta.v--green
                 span a
-              p.mb-0 <b>Reunión comunitaria</b>: convocar a actores locales en una sesión abierta.
+              p.mb-0 <b>Reunión comunitaria:</b> convocar a actores locales en una sesión abierta.
             li 
               .lista-ol--cuadro__vineta.v--green
                 span b
-              | <b>Lluvia de ideas</b>:
+              | <b>Lluvia de ideas:</b>
             ul.lista-ul
               li 
                 i.lista-ul__vineta
@@ -575,13 +575,13 @@
             li 
               .lista-ol--cuadro__vineta.v--green
                 span c
-              p.mb-0 <b>Priorización por votación</b>: los participantes asignan prioridad a cada tema identificado.
+              p.mb-0 <b>Priorización por votación:</b> los participantes asignan prioridad a cada tema identificado.
             li 
               .lista-ol--cuadro__vineta.v--green
                 span d
-              p.mb-0 <b>Resultados</b>: generar un <em>ranking</em> con los temas más relevantes.
+              p.mb-0 <b>Resultados:</b> generar un <em>ranking</em> con los temas más relevantes.
 
-            p(data-aos="fade-left") <b>Herramienta digital sugerida</b>: mentimeter para votación en tiempo real en sesiones virtuales.
+            p(data-aos="fade-left") <b>Herramienta digital sugerida</b>: Mentimeter para votación en tiempo real en sesiones virtuales.
     separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.4 Métodos de capacitación
